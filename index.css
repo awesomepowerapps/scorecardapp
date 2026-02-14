@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scoreboard {
+    background: #1f2a4d;
+    padding: 60px;
+    border-radius: 20px;
+    display: flex;
+    gap: 120px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.team {
+    text-align: center;
+    color: white;
+}
+
+.team h2 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.score-box {
+    background: black;
+    width: 160px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.score-box span {
+    font-size: 80px;
+    color: #ff4d6d;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #4a5d8f;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.buttons button:hover {
+    background: #4a5d8f;
+}

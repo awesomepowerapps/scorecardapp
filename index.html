@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scoreboard App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="scoreboard">
+
+        <!-- HOME TEAM -->
+        <div class="team">
+            <h2>HOME</h2>
+            <div class="score-box">
+                <span id="homeScore">0</span>
+            </div>
+            <div class="buttons">
+                <button onclick="addScore('home',1)">+1</button>
+                <button onclick="addScore('home',2)">+2</button>
+                <button onclick="addScore('home',3)">+3</button>
+            </div>
+        </div>
+
+        <!-- GUEST TEAM -->
+        <div class="team">
+            <h2>GUEST</h2>
+            <div class="score-box">
+                <span id="guestScore">0</span>
+            </div>
+            <div class="buttons">
+                <button onclick="addScore('guest',1)">+1</button>
+                <button onclick="addScore('guest',2)">+2</button>
+                <button onclick="addScore('guest',3)">+3</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
